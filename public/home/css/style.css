@@ -3,6 +3,12 @@
 * {
   box-sizing: border-box;
 }
+
+#logincss {
+    margin-right:10px;
+    margin-left:10px;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   color: #0c0c0c;
@@ -1119,8 +1125,9 @@ form input[type="submit"]:focus {
     font-size: 15px;
     font-weight: 400;
 }
-
+/*
 http://kute-themes.com/html/boutique/html/index.html
 https://template.hasthemes.com/noraure/noraure/index.html
 https://preview.hasthemes.com/xoss-preview/xoss/index.html
 
+*/
