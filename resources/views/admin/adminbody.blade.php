@@ -74,28 +74,21 @@
         <div class="col-12 grid-margin">
           <div class="card">
             <div class="card-body">
-              <h4 class="card-title">Order Status</h4>
+                <div >
+                  <h4 class="card-title">Order Status</h4>
                   <form method='POST' action='#' >
-                      <select>
+                      <select name='type' >
                             <option style='color:black' value="rejected">Rejected</option>
                             <option style='color:black' value="approved">Approved</option>
                             <option style='color:black' value="pending">Pending</option>
                       </select>
-                   </form>
+                   </form></div>
               <div class="table-responsive">
                 <table class="table">
                   <thead>
                     <tr>
-                      <th>
-                        <div class="form-check form-check-muted m-0">
-                          <label class="form-check-label">
-                            <input type="checkbox" class="form-check-input">
-                          </label>
-                        </div>
-                      </th>
                       <th> Client Name </th>
                       <th> Tel </th>
-                      <th> Order No </th>
                       <th> Order Cost </th>
                       <th> Order Date </th>
                       <th> Destination </th>
@@ -106,17 +99,9 @@
                   <tbody>
                     <tr>
                       <td>
-                        <div class="form-check form-check-muted m-0">
-                          <label class="form-check-label">
-                            <input type="checkbox" class="form-check-input">
-                          </label>
-                        </div>
-                      </td>
-                      <td>
                         <span class="pl-2">Client name</span>
                       </td>
                       <td> 02312 </td>
-                      <td> 12 </td>
                       <td> 140$ </td>
                       <td> 04/02/2023 </td>
                       <td> Tangier </td>
@@ -125,18 +110,10 @@
                       </td>
                     </tr>
                     <tr>
-                      <td>
-                          <div class="form-check form-check-muted m-0">
-                            <label class="form-check-label">
-                              <input type="checkbox" class="form-check-input">
-                            </label>
-                          </div>
-                        </td>
                         <td>
                           <span class="pl-2">Client name</span>
                         </td>
                         <td> 02312 </td>
-                        <td> 12 </td>
                         <td> 140$ </td>
                         <td> 04/02/2023 </td>
                         <td> Tangier </td>
@@ -145,18 +122,10 @@
                       </td>
                     </tr>
                     <tr>
-                      <td>
-                          <div class="form-check form-check-muted m-0">
-                            <label class="form-check-label">
-                              <input type="checkbox" class="form-check-input">
-                            </label>
-                          </div>
-                        </td>
                         <td>
                           <span class="pl-2">Client name</span>
                         </td>
                         <td> 02312 </td>
-                        <td> 12 </td>
                         <td> 140$ </td>
                         <td> 04/02/2023 </td>
                         <td> Tangier </td>

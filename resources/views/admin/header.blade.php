@@ -1,9 +1,9 @@
+
 <nav class="navbar p-0 fixed-top d-flex flex-row">
-    <div class="navbar-brand-wrapper d-flex d-lg-none align-items-center justify-content-center">
-      <a class="navbar-brand brand-logo-mini" href="index.html"><img src="admin/assets/images/logo-mini.svg" alt="logo" /></a>
-    </div>
-    <div class="navbar-menu-wrapper flex-grow d-flex align-items-stretch">
-      <ul class="navbar-nav w-100">
+    <div class="navbar-menu-wrapper flex-grow d-flex align-items-stretch" >
+        <img class="navbar-brand brand-logo-mini" width ="150" src="admin/assets/images/logo.png" alt="logo" />
+
+    <ul class="navbar-nav w-100">
         <li class="nav-item nav-settings d-none d-lg-block" style='margin-right:30px'>
             <a class="nav-link" href="{{url('/home')}}">
               <span class="menu-icon">

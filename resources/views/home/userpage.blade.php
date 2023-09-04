@@ -10,8 +10,8 @@
       <meta name="keywords" content="" />
       <meta name="description" content="" />
       <meta name="author" content="" />
-      <link rel="shortcut icon" href="images/favicon.png" type="">
-      <title>Famms - Fashion </title>
+      <link rel="shortcut icon" href="home/images/logo.png" type="">
+      <title>Amazon </title>
       <!-- bootstrap core css -->
       <link rel="stylesheet" type="text/css" href="home/css/bootstrap.css" />
       <!-- font awesome style -->
@@ -24,13 +24,10 @@
    <body>
       <div class="hero_area">
 
-         <!-- header section strats -->
          @include('home.header');
-         <!-- end header section -->
 
-         <!-- slider section -->
          @include('home.slider');
-         <!-- end slider section -->
+
       </div>
       <!-- why section -->
       @include('home.why');
